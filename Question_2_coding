@@ -14,10 +14,8 @@ h = 0.5;
 x = 0:h:100;                                        
 Y = zeros(1,length(x));
 
-% set the interval of x%
 y = zeros(1,length(x));
 
-n = length(x)-1;
 p_es =@(e,s,es)(k_3* es); 
 for i = 1:n
     
