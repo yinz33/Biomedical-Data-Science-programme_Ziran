@@ -1,0 +1,22 @@
+%Only have introductory level of matlab coding skills (basics about matrix calculation)
+%I've tried my best to self-study the fourth Order Runge-Kutta method
+
+h = 0.5;  
+x = 0:h:100;                                        
+Y = zeros(1,length(x));
+
+% set the interval of x%
+y = zeros(1,length(x));
+
+n = length(x)-1;
+p_es =@(e,s,es)(k_3* es); 
+for i = 1:n
+    
+e_start = "1";
+s_start = "10";
+es_start = "0";
+p_start = "0";
+
+k_1 = "100";
+K_2 = "600";
+K_3 = "150";
