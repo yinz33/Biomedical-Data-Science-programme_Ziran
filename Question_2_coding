@@ -9,6 +9,7 @@ d[P]/dt = k3[ES]
 8.2
 %Only have introductory level of matlab coding skills (basics about matrix calculation)
 %I've tried my best to self-study the fourth Order Runge-Kutta method
+%And I will continue working on it until I solve it, but right now, here's my latest production
 
 h = 0.5;  
 x = 0:h:100;                                        
