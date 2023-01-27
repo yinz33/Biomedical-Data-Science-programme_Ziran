@@ -1,3 +1,12 @@
+8.1
+d[E]/dt = -k1[E][S]+k2[ES]+K3[ES]
+d[S]/dt = -K1[E][S]+k2[ES]
+d[ES]/dt = k1[E][S]-k2[ES]-k3[ES]
+d[P]/dt = k3[ES]
+
+
+
+8.2
 %Only have introductory level of matlab coding skills (basics about matrix calculation)
 %I've tried my best to self-study the fourth Order Runge-Kutta method
 
@@ -20,3 +29,7 @@ p_start = "0";
 k_1 = "100";
 K_2 = "600";
 K_3 = "150";
+
+
+8.3
+P
